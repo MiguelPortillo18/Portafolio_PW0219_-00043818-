@@ -1,0 +1,82 @@
+body{
+    background-image: url("https://besthqwallpapers.com/Uploads/17-11-2017/29194/thumb2-4k-geometric-figures-art-abstract-texture-geometry.jpg");
+}
+
+img{
+
+   border-radius: 100%;
+}
+
+.flex-container{
+    display: flexbox;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.btn{
+    border: 2px solid;
+    border-radius: 0.3em;
+    box-shadow: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.btn{
+    display: flexbox;
+    flex-direction: row-reverse;
+}
+
+.btn.open{
+    background-color: #1A237E;
+    color: white;
+}
+
+.btn.download{
+    background-color: rgb(8, 129, 49);
+    color: white;
+}
+
+.btn.faq{
+    background-color: rgb(207, 130, 14);
+    color: white;
+}
+
+.btn.footer{
+    background-color: rgb(109, 110, 116);
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(50, 228, 183);
+    color: black;
+}
+
+footer{
+    height: 100px;
+}
+
+h1{
+    width: 25%;
+    margin: white 5px;
+    border: white solid;
+    border: 5px auto; 
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+    padding: 10px;
+    color: rgb(26, 196, 97);
+    font-size: 3em;
+    text-align: center;
+
+    display: inline-flexbox;
+    align-content: center;
+}
+
+hr{
+    width: 25%;
+    margin: white 5px;
+    border: white solid;
+}
+
+
+
