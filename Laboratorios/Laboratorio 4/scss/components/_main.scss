@@ -1,0 +1,30 @@
+body {
+  background-image: url("https://besthqwallpapers.com/Uploads/17-11-2017/29194/thumb2-4k-geometric-figures-art-abstract-texture-geometry.jpg");
+  background-size: cover;
+
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  height: 100vh;
+
+  main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+
+    h1 {
+      align-self: center;
+    }
+
+    hr {
+      align-self: center;
+      width: 80%;
+    }
+
+    .flex-container{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+  }
+}
