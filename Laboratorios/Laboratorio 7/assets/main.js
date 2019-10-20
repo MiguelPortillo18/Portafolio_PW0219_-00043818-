@@ -27,7 +27,7 @@ function addStudent(carnet, schedule, late, tBody){
         var carnetRegex = new RegExp("^[0-9]{8}$");
 
         submit_btn.addEventListener("click",function(){
-            console.log("ola");
+
             let carnet = carnet_field.value;
             let schedule = schedule_field.options[schedule_field.selectedIndex].text;
             let late = parseLateSwitch(late_switch.checked);
